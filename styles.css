@@ -12,6 +12,20 @@ body {
   margin: 0 auto;
 }
 
+#description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
 input[type="file"] {
   margin-bottom: 20px;
 }
