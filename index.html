@@ -9,8 +9,20 @@
 <body>
 
   <div class="container">
-    <h1>Random Item Selector from File</h1>
+    <h1>Random Item Selector</h1>
     
+    <!-- Description of the input file format -->
+    <p id="description">
+      Upload a text file (.txt) where each line contains an option. 
+      You can also assign a weight to each option by separating the option and weight with a comma.
+      For example:
+    </p>
+    <pre>
+      Option 1, 2
+      Option 2, 5
+      Option 3, 1
+    </pre>
+
     <!-- Input for file upload -->
     <input type="file" id="fileInput" accept=".txt">
     
